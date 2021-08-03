@@ -1,3 +1,5 @@
+#1 Посмотреть документацию к API GitHub, разобраться как вывести список репозиториев для конкретного пользователя, сохранить JSON-вывод в файле *.json.
+
 import json
 import requests
 
@@ -17,6 +19,8 @@ for i in range(0, len(jsonic)):
 
 with open('les1_1.json', 'w') as outfile:
     json.dump(js, outfile)
+    
+#2 Изучить список открытых API. Найти среди них любое, требующее авторизацию (любого типа). Выполнить запросы к нему, пройдя авторизацию. Ответ сервера записать в файл.
 
 # DYKBPupVuJtZ1hxrMq79cGfTByIO7Db2NQmQmbDU
 # https://api.nasa.gov/planetary/apod? api_key = DYKBPupVuJtZ1hxrMq79cGfTByIO7Db2NQmQmbDU
